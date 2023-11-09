@@ -7,6 +7,46 @@
 </head>
 
 <body>
+	<form method="post" action="submit_feedback.php">
+	 <div>
+	 <label for="name">Name:</label>
+	<input type="text" id="name"  placeholder="Name" minlength="3", maxlength="50", required>
+	 </div>
+		<div>
+			<lable for="email">Email</lable>
+	<input type="email" id="portfolio" placeholder="Email" required>
+	 </div>
+		<div>
+			<lable for="gender">Gender</lable>
+	<input type="radio" id="gender_m" required>gender_m
+		<input type="radio" id="gender_f" required>gender_f
+	 </div>
+		<div><lable for="cars">Car Brands</lable>
+	<input type="select" id="cars"required>
+	 </div>
+		<div><lable for="age">Age</lable>
+	<input type="Number" id="age" placeholder="Age"required>
+	 </div>
+		</div>
+		<div><lable for="dob">DOB</lable>
+	<input type="date" id="dob"required>
+	 </div>
+		</div>
+		<div><lable for="tel">Phone Number</lable>
+	<input type="tel" id="tel">
+	 </div>
+		<div><lable for="password">Password</lable>
+	<input type="password" id="password"required>
+	 </div>
+		</div>
+		<div>
+	<input type="checkbox" id="tos"required>
+			<lable for="tos">I agree to the TOS</lable>
+	 </div>
+		<div><button type="submit">Submit</button>
+	 </div>
+	</form>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
